@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90d1549e_4ab056df",
+        "filename": "udp_ser.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-05-14T11:23:24Z",
+      "side": 1,
+      "message": "we are doing the search twice here and find_cli_dbase. we will first client in dbase if not found add it. Also before sending buff remove first argument which is client nickname.",
+      "range": {
+        "startLine": 110,
+        "startChar": 8,
+        "endLine": 110,
+        "endChar": 26
+      },
+      "revId": "cb5ae900b6a01ecbb8c38f2fbfef7f95e93a30af",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
