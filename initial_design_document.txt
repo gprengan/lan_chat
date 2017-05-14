@@ -1,0 +1,28 @@
+Lan chat application requirement document
+
+
+objectives:
+
+1. A nick name to be obtained form the client and used for communication.
+2. Broadcast message implementation.
+3. Group creation and sending message to that group.
+4. Unicast message based on username.
+5. List online users in client.
+
+
+Design:
+
+client to client message communication design
+
+Client1 will get a nick name from user and that to be saved in server (database can be a tree or
+list based on the size and number of client in the network).
+
+The client want to send a message to another client, client1 need to specify the nick name of
+client2 amd send the message to that client.
+
+Eg:
+lanchat clients_nick_name <message> <type>
+
+The type field can be used for broadcast/unicast message
+
+A new terminal will be opened to display the messages intended for client. This will be done using pipe.
