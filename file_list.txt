@@ -1,0 +1,40 @@
+element_client_api.c
+|- element_client_encode
+|- element_client_decode
+
+
+element_server_api.c
+|- element_server_encode
+|- element_server_decode
+
+
+msg.c
+|- encode and decodes
+
+
+
+
+
+compilation for server:
+gcc server.c msg.c msg_server_decode.c element_server_api.c -o server
+
+compilation for client:
+gcc client.c msg.c msg_client_decode.c element_client_api.c -o client
+
+
+TLV messages
+
+MSG_CLIENT_ADD is the main payload and it has two elements 1.ACTION and 2.NAME
+
+ACTION:
+
+Action will specify the server/client to do things like add, delete, full.
+
+NAME:
+
+The name field of the MSG_CLIENT_ADD will have the client nick name.
+
+       T          L         T             L    V              T         L            V
+--------------------------------------------------------------------------------------------------
+|MSG_CLIENT_ADD | 0 | ELE_CLIENT_ACTION | 4 | ADD | ELE_CLIENT_NAME | strlen(name) | Name_string |
+--------------------------------------------------------------------------------------------------
