@@ -1,0 +1,23 @@
+element_client_api.c
+|- element_client_encode
+|- element_client_decode
+
+
+element_server_api.c
+|- element_server_encode
+|- element_server_decode
+
+
+msg.c
+|- encode and decodes
+
+
+
+
+
+compilation for server:
+gcc server.c msg.c msg_server_decode.c element_server_api.c -o server
+
+compilation for client:
+gcc client.c msg.c msg_client_decode.c element_client_api.c -o client
+
