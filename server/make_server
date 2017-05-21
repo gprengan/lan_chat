@@ -1,0 +1,1 @@
+gcc server.c msg_server_decode.c msg.c element_server_api.c -o chat_server

@@ -1,0 +1,1 @@
+gcc client.c element_client_api.c msg.c msg_client_decode.c -pthread -o chat_client
