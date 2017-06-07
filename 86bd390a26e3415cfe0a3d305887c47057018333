@@ -1,0 +1,343 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4be4402_3109bc90",
+        "filename": "client/client.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "space after comma",
+      "range": {
+        "startLine": 36,
+        "startChar": 15,
+        "endLine": 36,
+        "endChar": 32
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe878aba_b4acc309",
+        "filename": "client/client.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "what we are trying to close here?",
+      "range": {
+        "startLine": 134,
+        "startChar": 10,
+        "endLine": 134,
+        "endChar": 16
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "90eb8115_558a8060",
+        "filename": "client/element_client_api.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "4 space indentation",
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "035f879d_467d9be4",
+        "filename": "client/msg_client_decode.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "indendation",
+      "range": {
+        "startLine": 25,
+        "startChar": 12,
+        "endLine": 25,
+        "endChar": 17
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b378acc8_8b338d03",
+        "filename": "file_list.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "pthread?",
+      "range": {
+        "startLine": 22,
+        "startChar": 58,
+        "endLine": 22,
+        "endChar": 60
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a72a42d_fd770b46",
+        "filename": "server/element_server_api.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "client is already memset",
+      "range": {
+        "startLine": 55,
+        "startChar": 16,
+        "endLine": 55,
+        "endChar": 22
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a0fb308_7ac069f7",
+        "filename": "server/element_server_api.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "can we memset client? and remove here",
+      "range": {
+        "startLine": 91,
+        "startChar": 16,
+        "endLine": 91,
+        "endChar": 22
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c4fa339c_a6a06000",
+        "filename": "server/element_server_api.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "same as above",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 16
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17ea1a2e_21f263dc",
+        "filename": "server/msg_server_decode.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "indendation",
+      "range": {
+        "startLine": 18,
+        "startChar": 8,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32674ebe_a601ee1a",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "indendation",
+      "range": {
+        "startLine": 44,
+        "startChar": 14,
+        "endLine": 44,
+        "endChar": 21
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1c0dd03d_81e5ca23",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "strncpy?",
+      "range": {
+        "startLine": 63,
+        "startChar": 12,
+        "endLine": 63,
+        "endChar": 18
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "88741021_9f7f9484",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "buff1 not needed?",
+      "range": {
+        "startLine": 80,
+        "startChar": 4,
+        "endLine": 80,
+        "endChar": 9
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17304046_4d1e07a6",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "indendation",
+      "range": {
+        "startLine": 98,
+        "startChar": 4,
+        "endLine": 98,
+        "endChar": 11
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8310a517_0d485885",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "space",
+      "range": {
+        "startLine": 103,
+        "startChar": 18,
+        "endLine": 103,
+        "endChar": 27
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "55174cd5_c3c9b075",
+        "filename": "server/server.c",
+        "patchSetId": 14
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1011108
+      },
+      "writtenOn": "2017-06-07T18:04:20Z",
+      "side": 1,
+      "message": "close?",
+      "range": {
+        "startLine": 110,
+        "startChar": 4,
+        "endLine": 110,
+        "endChar": 9
+      },
+      "revId": "86bd390a26e3415cfe0a3d305887c47057018333",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
